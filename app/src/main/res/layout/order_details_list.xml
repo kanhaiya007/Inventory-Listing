@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="12"
+            android:layout_height="wrap_content"
+            android:text="Order List"
+            android:textSize="30sp"
+            android:fontFamily="@font/gabriola"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"/>
+        <ImageView
+            android:id="@+id/cancelDialog"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_cross"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/yellow"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/orderList_recycler_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:padding="5dp"
+            android:layout_marginTop="7dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/orderDelete"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:text="Delete"
+                android:background="@drawable/curve_yellow_btn"
+                android:fontFamily="@font/gabriola"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/orderConfirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:text="Confirm"
+                android:background="@drawable/curve_yellow_btn"
+                android:fontFamily="@font/gabriola"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

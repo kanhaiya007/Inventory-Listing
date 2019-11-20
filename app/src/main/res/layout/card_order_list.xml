@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="20sp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF7EE"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/orderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:fontFamily="@font/gabriola"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/orderCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Category"
+            android:fontFamily="@font/gabriola"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/orderQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:fontFamily="@font/gabriola"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimary"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

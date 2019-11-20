@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="7dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="20sp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF7EE"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/confirm_order_image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:cropToPadding="true"
+                    android:src="@drawable/balaji" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimary" />
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/confirm_order_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gabriola"
+                    android:padding="7dp"
+                    android:text="Name"
+                    android:textAlignment="center"
+                    android:textColor="#E91E63"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/confirm_order_brand"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gabriola"
+                    android:padding="7dp"
+                    android:text="Brand"
+                    android:textAlignment="center"
+                    android:textColor="#E91E63"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/confirm_order_quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gabriola"
+                    android:padding="7dp"
+                    android:text="Quantity"
+                    android:textAlignment="center"
+                    android:textColor="#E91E63"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/confirm_order_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/gabriola"
+                    android:padding="7dp"
+                    android:text="Price"
+                    android:textAlignment="center"
+                    android:textColor="#E91E63"
+                    android:textSize="20sp" />
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

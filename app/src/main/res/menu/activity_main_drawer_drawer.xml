@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/category" />
+        <item
+            android:id="@+id/nav_item"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/item" />
+        <item
+            android:id="@+id/nav_confirm_orders"
+            android:icon="@drawable/ic_confirm_orders"
+            android:title="@string/confirm_orders" />
+        <item
+            android:id="@+id/nav_addUser"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/register_user" />
+        <item
+            android:id="@+id/userDetails"
+            android:icon="@drawable/ic_user_details"
+            android:title="@string/users_details" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/logout" />
+
+
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:menuCategory="alternative">
+        <item
+            android:id="@+id/aboutDeveloper"
+            android:icon="@drawable/ic_sentiment_very_satisfied_black_24dp"
+            android:title="About Developer" />
+    </group>
+
+
+</menu>

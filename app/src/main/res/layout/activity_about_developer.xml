@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.AboutDeveloper"
+    android:gravity="center"
+    android:background="@drawable/forgot_password"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kanahaiya"
+        android:fontFamily="@font/gabriola"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Founder:  TECHKETS Business Solution Provider"
+        android:fontFamily="@font/gabriola"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Computer Science Engineer \n Android Developer"
+        android:fontFamily="@font/gabriola"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GLA University, Mathura"
+        android:fontFamily="@font/gabriola"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"/>
+
+
+</LinearLayout>

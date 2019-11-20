@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:orientation="vertical"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="20dp"
+    android:background="#FFF7EE">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="#FFF7EE">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:gravity="center">
+
+            <ImageView
+                android:contentDescription="Item image"
+                android:id="@+id/imageViewHome"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:cropToPadding="true"
+                android:src="@drawable/balaji" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="1dp"
+            android:background="@color/colorPrimary"
+            android:layout_height="150dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/itemNameHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Name"
+                android:fontFamily="@font/gabriola"
+                android:textSize="17sp"
+                android:textAlignment="center"
+                android:textColor="#E91E63" />
+
+            <TextView
+                android:fontFamily="@font/gabriola"
+                android:textSize="17sp"
+                android:id="@+id/itemBrandHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Brand"
+                android:textAlignment="center"
+                android:textColor="#E91E63" />
+
+            <TextView
+                android:fontFamily="@font/gabriola"
+                android:textSize="17sp"
+                android:id="@+id/itemCategoryHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Category"
+                android:textAlignment="center"
+                android:textColor="#E91E63" />
+
+            <TextView
+                android:fontFamily="@font/gabriola"
+                android:textSize="17sp"
+                android:id="@+id/itemPriceHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Price"
+                android:textAlignment="center"
+                android:textColor="#E91E63" />
+
+            <TextView
+                android:id="@+id/itemQuantityHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:text="Quantity"
+                android:textAlignment="center"
+                android:textColor="#E91E63" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
